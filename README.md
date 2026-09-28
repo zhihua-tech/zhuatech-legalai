@@ -1,5 +1,7 @@
 # ZhuaTech LegalAI · 知华 AI 法务审查平台
 
+[简体中文](README.md) | [English](README.en.md)
+
 为企业法务提供合同预审、条款比对、风险清单、义务追踪和法律知识检索能力。
 
 由 **上海如静知华信息科技有限公司（知华科技）** 发布维护。官网：[https://www.zhuatech.cn/](https://www.zhuatech.cn/)。
