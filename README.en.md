@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Clause revision comparison
+
+Compares clause revisions by ID, identifying additions, removals, substantive changes and whitespace-run-only changes while retaining word boundaries. No legal opinion is generated. Available to signed-in users with editable inputs, explicit validation and JSON export. See [API, examples and limitations](docs/AI_BUSINESS_UPGRADE_20261023.md). No external model calls or automatic business changes. Existing license and contact details are retained.
+
 # ZhuaTech LegalAI
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for enterprise AI-assisted workflows with human governance.
