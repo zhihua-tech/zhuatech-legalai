@@ -1,0 +1,66 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "REVIEW",
+      "liabilityCap": "#200000",
+      "uninsuredCap": "#100000"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "insurance": "200000"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "exposure": "200000.01"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "capMode": "FIXED"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "liabilityCap": "#150000"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "capMultiple": "0"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "liabilityCap": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "capMode": "INVALID"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "exposure": "0",
+      "insurance": "200000"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  }
+]
